@@ -1,9 +1,9 @@
-# utils.py
+# utils.py (수정)
 import sys
 import ctypes
 
 def apply_blur(hwnd):
-    """ctypes를 사용해 주어진 창(hwnd)에 네이티브 블러 효과를 적용합니다."""
+    """ctypes를 사용해 주어진 창(hwnd)에 기본 블러 효과를 적용합니다."""
     if sys.platform != 'win32':
         return
 
